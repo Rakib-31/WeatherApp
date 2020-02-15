@@ -1,0 +1,19 @@
+
+<section class="weather-list" >
+  <form (ngSubmit) = "onSubmit(f.value)" #f="ngForm">
+  <div class="input-group">
+    <label class="label" for="city">City</label>
+      <input style="width: 10px;" class="form-control" ngModel name="location" type="text" id="city" required
+        (input) = "onSerachLoaction(Input.value)" placeholder="Enter Correct City Name">
+      
+      <span class="input-group-btn">
+            <button class="btn btn-success" type="submit"><small>search</small></button>
+      </span>
+    </div>
+  </form>
+  <div>
+    <span class = "info">Found:</span> {{data}} 
+  </div>
+  <div>{{errormsg}}</div>
+
+</section>

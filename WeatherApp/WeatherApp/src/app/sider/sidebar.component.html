@@ -1,0 +1,13 @@
+
+<div class="sidebar" style="margin-left: 5%;">
+  <button class="btn btn-secondary" 
+    (click) = "onSaveNew()"
+  >Add shortcut</button>
+
+  <article class="profilestyle" *ngFor = "let profile of profiles" (click) ="onLoadProfile(profile)" >
+    <span class="deleteX" (click)="onDeleteProfile($event, profile)">X</span>
+    <h3>{{profile.profileName}}</h3>
+    <p>Cities: {{profile.cities.join(', ')}}</p>
+    
+  </article>
+</div>

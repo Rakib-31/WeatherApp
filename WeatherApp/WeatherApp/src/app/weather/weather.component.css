@@ -1,0 +1,20 @@
+
+.navbar{
+    
+    background: rgb(2, 41, 10);
+    text-align: center;
+    color: white;
+}
+
+.pointer{
+    cursor: pointer;
+    padding-left: 5%;
+}
+
+.margin{
+    margin: 1%;
+}
+
+.right{
+    padding-right: 5%;
+}

@@ -1,0 +1,17 @@
+
+.weather-list {
+    box-shadow: 1px 1px 6px #ccc;
+    margin: 20px auto;
+    width: 50%;
+    float: left;
+}
+
+.info {
+    color: rgb(166, 207, 207);
+}
+
+.label {
+    margin-right: 10px;
+    font-weight: bold;
+
+}
